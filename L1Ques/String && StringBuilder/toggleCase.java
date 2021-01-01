@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-
     public static String toggleCase(String str) {
         StringBuilder ans = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
