@@ -12,5 +12,6 @@
     2. All indices of array.
     3. Get kpc.
     4. Get stairs path.
+    5 PrintSubsequences.
 
 
