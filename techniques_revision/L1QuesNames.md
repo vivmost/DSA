@@ -2,10 +2,11 @@
     1. Rotate an Array.
     2. Exit point of matrix.
     3. Rotate by 90.
+    4. Saddle Price.
+    5. Ring  Rotate.
 
 # Strings
     1. String With Difference Of Every Two Consecutive Characters.
-    
 
 # RECURSION 
     1. Tower Of hanoi.
