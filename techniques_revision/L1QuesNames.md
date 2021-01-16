@@ -21,4 +21,6 @@
 # DP
     1. Climb Stairs.
     2. Min Cost In Maze Traversal.
+    3. Goldmine.
+    
     
