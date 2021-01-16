@@ -9,7 +9,7 @@
     1. String With Difference Of Every Two Consecutive Characters.
 
 # RECURSION 
-    1. Tower Of hanoi.
+    1. Tower Of Hanoi.
     2. All indices of array.
     3. Get kpc.
     4. Get stairs path.
@@ -20,4 +20,5 @@
 
 # DP
     1. Climb Stairs.
+    2. Min Cost In Maze Traversal.
     
