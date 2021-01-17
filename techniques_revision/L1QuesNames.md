@@ -13,7 +13,7 @@
     2. All indices of array.
     3. Get kpc.
     4. Get stairs path.
-    5 PrintSubsequences.
+    5  PrintSubsequences.
     6. FloodFill.
     7. N_Queens.
     8. KnightsTour.
@@ -22,5 +22,8 @@
     1. Climb Stairs.
     2. Min Cost In Maze Traversal.
     3. Goldmine.
+    4. Target Sum Subsets.
+    5. Coin Change Combinations.
+
     
     
