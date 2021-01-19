@@ -24,6 +24,9 @@
     3. Goldmine.
     4. Target Sum Subsets.
     5. Coin Change Combinations.
+    6. 0-1 Knapsack.
+    7. Unbounded Knapsack.
+    
 
     
     
