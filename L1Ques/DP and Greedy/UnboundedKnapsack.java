@@ -21,20 +21,21 @@ public class Main {
 
         int cap = Integer.parseInt(br.readLine());
 
-        int[][] dp = new int[n + 1][cap + 1];
+        int[] dp = new int[cap + 1];
         for (int i = 1; i < dp.length; i++) {
-            for (int j = 1; j < dp[0].length; j++) {
-                int val = values[i - 1];
-                int wt = wts[i - 1];
+            for (int j = 0; j < wts.length; j++) {
+                int val = values[j];
+                int wt = wts[j];
 
-                if (j >= wt) {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - wt] + val);
-                } else {
-                    dp[i][j] = dp[i - 1][j];
+                if (i >= wt) {
+                    int factor = dp[i - wt] + val;
+                    if (factor > dp[i]) {
+                        dp[i] = factor;
+                    }
                 }
             }
         }
 
-        System.out.println(dp[n][cap]);
+        System.out.println(dp[cap]);
     }
 }
