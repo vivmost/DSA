@@ -28,6 +28,8 @@
     7. Unbounded Knapsack.
     8. Fractional Knapsack.
     9. Count Binary Strings.
+    10. Character Encoding.
+    
 
     
 
