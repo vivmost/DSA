@@ -10,7 +10,7 @@
 
 # RECURSION 
     1. Tower Of Hanoi.
-    2. All indices of array.
+    2. All indices of an array.
     3. Get kpc.
     4. Get stairs path.
     5  PrintSubsequences.
@@ -26,6 +26,9 @@
     5. Coin Change Combinations.
     6. 0-1 Knapsack.
     7. Unbounded Knapsack.
+    8. Fractional Knapsack.
+    9. Count Binary Strings.
+
     
 
     
