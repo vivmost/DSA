@@ -18,7 +18,7 @@
     7. N_Queens.
     8. KnightsTour.
 
-# DP
+# DP and Greedy
     1. Climb Stairs.
     2. Min Cost In Maze Traversal.
     3. Goldmine.
@@ -28,8 +28,11 @@
     7. Unbounded Knapsack.
     8. Fractional Knapsack.
     9. Count Binary Strings.
-    10. Character Encoding.
+    10. Count Encodings.
+    11. Count A+B+C+ subsequences.
+    12. Maximum Sum Non Adjacent Elements.
     
+
 
     
 
