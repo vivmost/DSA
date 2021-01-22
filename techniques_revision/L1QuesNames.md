@@ -31,6 +31,7 @@
     10. Count Encodings.
     11. Count A+B+C+ subsequences.
     12. Maximum Sum Non Adjacent Elements.
+    13. Paint Houses Many Colors.
     
 
 
