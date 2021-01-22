@@ -32,6 +32,7 @@
     11. Count A+B+C+ subsequences.
     12. Maximum Sum Non Adjacent Elements.
     13. Paint Houses Many Colors.
+    14. Tiling With (M x 1) Tiles.
     
 
 
