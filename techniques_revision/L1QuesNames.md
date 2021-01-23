@@ -35,6 +35,8 @@
     14. Tiling With (M x 1) Tiles.
     15. Buy And Sell Stocks With Transaction Fee Infinite Transactions Allowed.
     16. Buy And Sell Stocks With Cooldown Infinite Transactions Allowed.
+    17. Buy And Sell Stocks Two Transactions Allowed.
+    
     
 
 
