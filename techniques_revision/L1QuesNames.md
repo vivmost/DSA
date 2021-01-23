@@ -33,6 +33,8 @@
     12. Maximum Sum Non Adjacent Elements.
     13. Paint Houses Many Colors.
     14. Tiling With (M x 1) Tiles.
+    15. Buy And Sell Stocks With Transaction Fee Infinite Transactions Allowed.
+    16. Buy And Sell Stocks With Cooldown Infinite Transactions Allowed.
     
 
 
