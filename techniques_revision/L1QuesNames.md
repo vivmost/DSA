@@ -1,22 +1,22 @@
-# Arrays
+# Arrays and Matrix
     1. Rotate an Array.
     2. Exit point of matrix.
     3. Rotate by 90.
     4. Saddle Price.
-    5. Ring  Rotate.
+    5. Ring Rotate.
 
 # Strings
     1. String With Difference Of Every Two Consecutive Characters.
 
-# RECURSION 
+# RECURSION and Backtracking
     1. Tower Of Hanoi.
     2. All indices of an array.
     3. Get kpc.
     4. Get stairs path.
-    5  PrintSubsequences.
-    6. FloodFill.
+    5  Print Subsequences.
+    6. Flood Fill.
     7. N_Queens.
-    8. KnightsTour.
+    8. Knights Tour.
 
 # DP and Greedy
     1. Climb Stairs.
@@ -36,6 +36,7 @@
     15. Buy And Sell Stocks With Transaction Fee Infinite Transactions Allowed.
     16. Buy And Sell Stocks With Cooldown Infinite Transactions Allowed.
     17. Buy And Sell Stocks Two Transactions Allowed.
+    18. Buy And Sell Stocks K Transactions Allowed.
     
     
 
