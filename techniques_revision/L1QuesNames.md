@@ -1,4 +1,4 @@
-# Arrays and Matrix
+# Arrays and Matrices
     1. Rotate an Array.
     2. Exit point of matrix.
     3. Rotate by 90.
