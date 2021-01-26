@@ -37,12 +37,14 @@
     16. Buy And Sell Stocks With Cooldown Infinite Transactions Allowed.
     17. Buy And Sell Stocks Two Transactions Allowed.
     18. Buy And Sell Stocks K Transactions Allowed.
-    
-    
+        
 # Sorting 
-    1. Merge 2 sorted array.
-    2. Partition of an array.
-
+    1. Merge Sort.
+    2. Quick Sort.
+    3. Quick Select.
+    4. Count Sort.
+    5. Radix sort.
+    
 
     
 
