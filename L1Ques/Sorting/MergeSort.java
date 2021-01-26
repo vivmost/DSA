@@ -10,6 +10,7 @@ public class Main {
             return bans;
         }
         int mid = (lo + hi) / 2;
+        
         int[] lsa = mergeSort(arr, lo, mid);
         int[] rsa = mergeSort(arr, mid + 1, hi);
         int[] ans = mergeTwoSortedArrays(lsa, rsa);

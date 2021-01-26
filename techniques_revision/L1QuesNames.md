@@ -39,6 +39,9 @@
     18. Buy And Sell Stocks K Transactions Allowed.
     
     
+# Sorting 
+    1. Merge 2 sorted array.
+    2. Partition of an array.
 
 
     
