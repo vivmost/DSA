@@ -47,6 +47,7 @@
     6. Sort 012.
     7. Sort Dates.
     8. Target sum pair 1 --> (2 pointer).
+    9. Pivot In Sorted And Rotated Array.
 
     
     
