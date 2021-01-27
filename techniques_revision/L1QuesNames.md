@@ -43,7 +43,12 @@
     2. Quick Sort.
     3. Quick Select.
     4. Count Sort.
-    5. Radix sort.
+    5. Radix Sort.
+    6. Sort 012.
+    7. Sort Dates.
+    8. Target sum pair 1 --> (2 pointer).
+
+    
     
 
     
