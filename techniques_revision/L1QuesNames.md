@@ -49,7 +49,8 @@
     8. Target sum pair 1 --> (2 pointer).
     9. Pivot In Sorted And Rotated Array.
 
-    
+# Stacks and Queues
+    1. Duplicate Brackets.
     
 
     
