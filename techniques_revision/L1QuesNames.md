@@ -51,6 +51,11 @@
 
 # Stacks and Queues
     1. Duplicate Brackets.
+    2. Next Greater Element.
+    3. Stock Span.
+    4. Largest Area Histogram.
+    5. Sliding Window Maximum.
+    
     
 
     
