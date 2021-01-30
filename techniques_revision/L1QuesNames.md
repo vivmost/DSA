@@ -55,6 +55,8 @@
     3. Stock Span.
     4. Largest Area Histogram.
     5. Sliding Window Maximum.
+    6. Infix Evaluation.
+    7. Infix Conversions. 
     
     
 
