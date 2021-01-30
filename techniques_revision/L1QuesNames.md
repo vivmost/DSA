@@ -57,6 +57,8 @@
     5. Sliding Window Maximum.
     6. Infix Evaluation.
     7. Infix Conversions. 
+    8. Prefix Evaluations Conversions.
+    9. Postfix Evaluations Conversions.
     
     
 
