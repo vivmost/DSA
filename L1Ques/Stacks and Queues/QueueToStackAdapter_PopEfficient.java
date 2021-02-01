@@ -17,7 +17,15 @@ public class Main {
         }
 
         void push(int val) {
+            while (mainQ.size() > 0) {
+                helperQ.add(mainQ.remove());
+            }
+
             mainQ.add(val);
+
+            while (helperQ.size() > 0) {
+                mainQ.add(helperQ.remove());
+            }
         }
 
         int pop() {
@@ -25,17 +33,7 @@ public class Main {
                 System.out.println("Stack underflow");
                 return -1;
             } else {
-                while (mainQ.size() > 1) {
-                    helperQ.add(mainQ.remove());
-                }
-
-                int val = mainQ.remove();
-
-                while (helperQ.size() > 0) {
-                    mainQ.add(helperQ.remove());
-                }
-
-                return val;
+                return mainQ.remove();
             }
         }
 
@@ -44,18 +42,7 @@ public class Main {
                 System.out.println("Stack underflow");
                 return -1;
             } else {
-                while (mainQ.size() > 1) {
-                    helperQ.add(mainQ.remove());
-                }
-
-                int val = mainQ.remove();
-                helperQ.add(val);
-
-                while (helperQ.size() > 0) {
-                    mainQ.add(helperQ.remove());
-                }
-
-                return val;
+                return mainQ.peek();
             }
         }
     }

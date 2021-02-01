@@ -49,7 +49,7 @@
     8. Target sum pair 1 --> (2 pointer).
     9. Pivot In Sorted And Rotated Array.
 
-# Stack
+# Stacks and Queues
     1. Duplicate Brackets.
     2. Next Greater Element.
     3. Stock Span.
@@ -63,9 +63,7 @@
     11. Merge Overlapping Intervals.
     12. Stack Implementations(Static and Dynamic).
     13. Minimum Stack Constant Space.
-
-# Queue
-    1. Queue Implementations(Static and Dynamic).
+    14. Queue Implementations(Static and Dynamic).
     
     
     
