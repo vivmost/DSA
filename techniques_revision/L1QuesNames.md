@@ -8,7 +8,7 @@
 # Strings
     1. String With Difference Of Every Two Consecutive Characters.
 
-# RECURSION and Backtracking
+# Recursion and Backtracking
     1. Tower Of Hanoi.
     2. All indices of an array.
     3. Get kpc.
@@ -64,8 +64,10 @@
     12. Stack Implementations(Static and Dynamic).
     13. Minimum Stack Constant Space.
     14. Queue Implementations(Static and Dynamic).
+    15. Two Stacks In An Array.
     
-    
+# Linked List
+    1. 
     
     
     
