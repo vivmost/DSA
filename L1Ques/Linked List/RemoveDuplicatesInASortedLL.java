@@ -279,6 +279,24 @@ public class Main {
             LinkedList sl = mergeTwoSortedLists(fsh, ssh);
             return sl;
         }
+
+        // removes duplicates from a sorted linked list
+        public void removeDuplicates() {
+            LinkedList res = new LinkedList();
+
+            while (this.size() > 0) {
+                int val = this.getFirst();
+                this.removeFirst();
+
+                if (res.size() == 0 || val != res.tail.data) {
+                    res.addLast(val);
+                }
+            }
+
+            this.head = res.head;
+            this.tail = res.tail;
+            this.size = res.size;
+        }
     }
 
     public static void main(String[] args) throws Exception {
@@ -292,8 +310,8 @@ public class Main {
             l1.addLast(d);
         }
 
-        LinkedList sorted = LinkedList.mergeSort(l1.head, l1.tail);
-        sorted.display();
+        l1.display();
+        l1.removeDuplicates();
         l1.display();
     }
 }
