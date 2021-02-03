@@ -67,7 +67,8 @@
     15. Two Stacks In An Array.
     
 # Linked List
-    1. 
+    1. Linked List Implementation.
+    2. Reverse A Linked list(Data and Pointer Iterative).
     
     
     
