@@ -46,7 +46,7 @@
     5. Radix Sort.
     6. Sort 012.
     7. Sort Dates.
-    8. Target sum pair 1 --> (2 pointer).
+    8. Target sum pair 1 --> (2 pointers).
     9. Pivot In Sorted And Rotated Array.
 
 # Stacks and Queues
@@ -69,6 +69,9 @@
 # Linked List
     1. Linked List Implementation.
     2. Reverse A Linked list(Data and Pointer Iterative).
+    3. Kth Node From The End --> (Slow and Fast Pointers).
+    4. Mid OF Linked List --> (Slow and Fast Pointers).
+    
     
     
     
