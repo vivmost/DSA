@@ -71,6 +71,10 @@
     2. Reverse A Linked list(Data and Pointer Iterative).
     3. Kth Node From The End --> (Slow and Fast Pointers).
     4. Mid OF Linked List --> (Slow and Fast Pointers).
+    5. K Reverse In A Linked List.
+    6. Display A Linked List Recursive.
+    7. Reverse A Linked List Pointer Recursive.
+    
     
     
     
