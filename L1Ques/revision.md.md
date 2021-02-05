@@ -66,7 +66,7 @@
     14. Queue Implementations(Static and Dynamic).
     15. Two Stacks In An Array.
     
-# Linked List
+# Linked Lists
     1. Linked List Implementation.
     2. Reverse A Linked list(Data and Pointer Iterative).
     3. Kth Node From The End --> (Slow and Fast Pointers).
@@ -74,8 +74,12 @@
     5. K Reverse In A Linked List.
     6. Display A Linked List Recursive.
     7. Reverse A Linked List Pointer Recursive.
+    8. Is Linked List A Paliandrome.
+    9. Fold A Linked List.
+    10. Add 2 Linked Lists.
     
-    
+# Trees
+
     
     
     

@@ -393,29 +393,26 @@ public class Main {
             tail.next = null;
         }
 
-        private void foldHelper(Node right, int floor) {
-            if (right == null) {
-                return;
+        public static int findIntersection(LinkedList one, LinkedList two) {
+            Node on = one.head;
+            Node tn = two.head;
+
+            if (one.size > two.size) {
+                for (int i = 0; i < one.size - two.size; i++) {
+                    on = on.next;
+                }
+            } else {
+                for (int i = 0; i < two.size - one.size; i++) {
+                    tn = tn.next;
+                }
             }
-            foldHelper(right.next, floor + 1);
 
-            if (floor > size / 2) {
-                Node temp = fleft.next;
-                fleft.next = right;
-                right.next = temp;
-
-                fleft = temp;
-            } else if (floor == size / 2) {
-                tail = right;
-                tail.next = null;
+            while (on != tn) {
+                on = on.next;
+                tn = tn.next;
             }
-        }
 
-        Node fleft;
-
-        public void fold() {
-            fleft = head;
-            foldHelper(head, 0);
+            return on.data;
         }
     }
 
@@ -430,14 +427,41 @@ public class Main {
             l1.addLast(d);
         }
 
-        int a = Integer.parseInt(br.readLine());
-        int b = Integer.parseInt(br.readLine());
+        int n2 = Integer.parseInt(br.readLine());
+        LinkedList l2 = new LinkedList();
+        String[] values2 = br.readLine().split(" ");
+        for (int i = 0; i < n2; i++) {
+            int d = Integer.parseInt(values2[i]);
+            l2.addLast(d);
+        }
 
-        l1.display();
-        l1.fold();
-        l1.display();
-        l1.addFirst(a);
-        l1.addLast(b);
-        l1.display();
+        int li = Integer.parseInt(br.readLine());
+        int di = Integer.parseInt(br.readLine());
+        if (li == 1) {
+            Node n = l1.getNodeAt(di);
+
+            if (l2.size > 0) {
+                l2.tail.next = n;
+            } else {
+                l2.head = n;
+            }
+
+            l2.tail = l1.tail;
+            l2.size += l1.size - di;
+        } else {
+            Node n = l2.getNodeAt(di);
+
+            if (l1.size > 0) {
+                l1.tail.next = n;
+            } else {
+                l1.head = n;
+            }
+
+            l1.tail = l2.tail;
+            l1.size += l2.size - di;
+        }
+
+        int inter = LinkedList.findIntersection(l1, l2);
+        System.out.println(inter);
     }
 }

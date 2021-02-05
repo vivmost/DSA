@@ -393,29 +393,40 @@ public class Main {
             tail.next = null;
         }
 
-        private void foldHelper(Node right, int floor) {
-            if (right == null) {
-                return;
+        public static int addTwoLists(Node on, Node tn, int pio, int pit, LinkedList res) {
+            if (on == null && tn == null) {
+                return 0;
             }
-            foldHelper(right.next, floor + 1);
 
-            if (floor > size / 2) {
-                Node temp = fleft.next;
-                fleft.next = right;
-                right.next = temp;
-
-                fleft = temp;
-            } else if (floor == size / 2) {
-                tail = right;
-                tail.next = null;
+            int carry = 0;
+            int data = 0;
+            if (pio > pit) {
+                carry = addTwoLists(on.next, tn, pio - 1, pit, res);
+                data = carry + on.data;
+            } else if (pio < pit) {
+                carry = addTwoLists(on, tn.next, pio, pit - 1, res);
+                data = carry + tn.data;
+            } else {
+                carry = addTwoLists(on.next, tn.next, pio - 1, pit - 1, res);
+                data = carry + on.data + tn.data;
             }
+
+            carry = data / 10;
+            data = data % 10;
+
+            res.addFirst(data);
+            return carry;
         }
 
-        Node fleft;
+        public static LinkedList addTwoLists(LinkedList one, LinkedList two) {
+            LinkedList res = new LinkedList();
 
-        public void fold() {
-            fleft = head;
-            foldHelper(head, 0);
+            int carry = addTwoLists(one.head, two.head, one.size, two.size, res);
+            if (carry > 0) {
+                res.addFirst(carry);
+            }
+
+            return res;
         }
     }
 
@@ -430,14 +441,24 @@ public class Main {
             l1.addLast(d);
         }
 
+        int n2 = Integer.parseInt(br.readLine());
+        LinkedList l2 = new LinkedList();
+        String[] values2 = br.readLine().split(" ");
+        for (int i = 0; i < n2; i++) {
+            int d = Integer.parseInt(values2[i]);
+            l2.addLast(d);
+        }
+
+        LinkedList sum = LinkedList.addTwoLists(l1, l2);
+
         int a = Integer.parseInt(br.readLine());
         int b = Integer.parseInt(br.readLine());
 
         l1.display();
-        l1.fold();
-        l1.display();
-        l1.addFirst(a);
-        l1.addLast(b);
-        l1.display();
+        l2.display();
+        sum.display();
+        sum.addFirst(a);
+        sum.addLast(b);
+        sum.display();
     }
 }
