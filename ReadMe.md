@@ -81,8 +81,6 @@
     9. Fold A Linked List.
     10. Add 2 Linked Lists.
     
-### Trees
-    
     
 
     

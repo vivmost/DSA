@@ -79,13 +79,6 @@
     10. Add 2 Linked Lists.
     
 # Trees
-
-    
-    
-    
-    
-
-    
-
-    
-    
+    ## Generic Tree
+        1. Size Of A Generic Tree.
+        2. 
