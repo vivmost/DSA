@@ -83,4 +83,7 @@
         1. Size Of A Generic Tree.
         2. Maximum In A Genric Tree.
         3. Height Of A Tree.
+        4. Level Order Of Generic Tree.
+        5. Level Order Line Wise.
+        6. Level Order Line Wise Zig-Zag.
         
