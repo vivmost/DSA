@@ -81,4 +81,6 @@
 # Trees
     ## Generic Tree
         1. Size Of A Generic Tree.
-        2. 
+        2. Maximum In A Genric Tree.
+        3. Height Of A Tree.
+        
