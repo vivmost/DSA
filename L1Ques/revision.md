@@ -86,4 +86,6 @@
         4. Level Order Of Generic Tree.
         5. Level Order Line Wise.
         6. Level Order Line Wise Zig-Zag.
+        7. Remove Leaves In Generic Tree. 
+        8. Linearize A Generic Tree.
         
