@@ -90,4 +90,7 @@
         8. Linearize A Generic Tree.
         9. Lowest Common Ancestor of Generic Tree.
         10. Distance Between Two Nodes In A Generic Tree.
+        11. Are Trees Mirror In Shape.  
+        12. Predecessor and Succesor Of An Element.
+        
         
