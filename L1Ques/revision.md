@@ -88,4 +88,6 @@
         6. Level Order Line Wise Zig-Zag.
         7. Remove Leaves In Generic Tree. 
         8. Linearize A Generic Tree.
+        9. Lowest Common Ancestor of Generic Tree.
+        10. Distance Between Two Nodes In A Generic Tree.
         
