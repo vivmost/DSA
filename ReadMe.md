@@ -1,6 +1,6 @@
 # DSA
 
-## Level-1 Must Do Questions: 
+## Conceptual Questions from Level-1: 
 ### Arrays and Matrices
     1. Rotate an Array.
     2. Exit point of matrix.
