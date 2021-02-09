@@ -91,6 +91,8 @@
         9. Lowest Common Ancestor of Generic Tree.
         10. Distance Between Two Nodes In A Generic Tree.
         11. Are Trees Mirror In Shape.  
-        12. Predecessor and Succesor Of An Element.
-        
+        12. Predecessor and Succesor Of An Element (Multisolver for Generic Tree method used).
+        13. Ceil and Floor In Generic Tree.
+        14. Kth Largest Element.
+        15. Node With Maximum Subtree Sum.
         
