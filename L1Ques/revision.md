@@ -96,4 +96,10 @@
         14. Kth Largest Element.
         15. Node With Maximum Subtree Sum.
         16. Iterative Preorder Postorder Generic Tree.
+
+    ## Binary Tree
+        1. Size Sum Max_Height.
+        2. Node To Root Path.
+        3. Print k Levels Down.
+
         
