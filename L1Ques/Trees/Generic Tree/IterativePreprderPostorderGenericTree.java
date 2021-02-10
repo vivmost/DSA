@@ -44,27 +44,42 @@ public class Main {
     return root;
   }
 
-  static int dia = 0;
-  public static int diameter(Node node) {
-    int ht = -1;
+  static class Pair {
+    Node node;
+    int state;
 
-    int sh = -1;
-    for (Node child : node.children) {
-      int ch = diameter(child);
-      if (ch >= ht) {
-        sh = ht;
-        ht = ch;
-      } else if (ch >= sh) {
-        sh = ch;
+    Pair(Node node, int state){
+      this.node = node;
+      this.state = state;
+    }
+  }
+
+  public static void IterativePreandPostOrder(Node node) {
+    Pair p = new Pair(node, -1);
+    Stack<Pair> st = new Stack<>();
+    st.push(p);
+
+    String preOrder = "";
+    String postOrder = "";
+
+    while(st.size() > 0){
+      Pair top = st.peek();
+      if(top.state == -1){
+        preOrder += top.node.data + " ";
+        top.state++;
+      } else if (top.state >= 0 && top.state < top.node.children.size()){
+        Pair cp = new Pair(top.node.children.get(top.state), -1);
+        st.push(cp);
+
+        top.state++;
+      } else {
+        postOrder += top.node.data + " ";
+        st.pop();
       }
     }
 
-    if (sh + ht + 2 > dia) {
-      dia = sh + ht + 2;
-    }
-
-    ht += 1;
-    return ht;
+    System.out.println(preOrder);
+    System.out.println(postOrder);
   }
 
   public static void main(String[] args) throws Exception {
@@ -77,9 +92,7 @@ public class Main {
     }
 
     Node root = construct(arr);
-    dia = 0;
-    diameter(root);
-    System.out.println(dia);
+    IterativePreandPostOrder(root);
   }
 
 }
