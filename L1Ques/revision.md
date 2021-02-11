@@ -101,5 +101,7 @@
         1. Size Sum Max_Height.
         2. Node To Root Path.
         3. Print k Levels Down.
-
-        
+        4. Print Nodes K Distance Awaay.
+        5. Path To Leaf From Root In Range.
+        6. Transform To Left Cloned Tree.
+        7. Tranform To Normal From Left Cloned Tree.
