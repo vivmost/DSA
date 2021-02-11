@@ -105,3 +105,6 @@
         5. Path To Leaf From Root In Range.
         6. Transform To Left Cloned Tree.
         7. Tranform To Normal From Left Cloned Tree.
+        8. Print Single Child Nodes.
+        9. Remove Leaves Binary Tree.
+        10. 
