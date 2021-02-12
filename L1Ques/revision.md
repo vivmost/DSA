@@ -110,4 +110,9 @@
         10. Diameter Of Binary Tree.
         11. Tilt Of Binary Tree.
         12. Is A BST.
+        13. Is Binary Tree balanced.
+
+    ## BST
+        1. Size Sum Max Min Find In BST.
+        2. 
 
