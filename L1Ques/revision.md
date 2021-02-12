@@ -107,4 +107,7 @@
         7. Tranform To Normal From Left Cloned Tree.
         8. Print Single Child Nodes.
         9. Remove Leaves Binary Tree.
-        10. 
+        10. Diameter Of Binary Tree.
+        11. Tilt Of Binary Tree.
+        12. Is A BST.
+
