@@ -114,5 +114,10 @@
 
     ## BST
         1. Size Sum Max Min Find In BST.
-        2. 
+        2. Remove Node In BST.
+        3. Replace With Sum Of Larger.
+        4. LCA of BST.
+        5. Print Range.
+        6. Target Sum Pairs (Both Problem and Optimal Explanation).
+        
 
