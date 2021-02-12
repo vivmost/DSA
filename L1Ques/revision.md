@@ -119,5 +119,10 @@
         4. LCA of BST.
         5. Print Range.
         6. Target Sum Pairs (Both Problem and Optimal Explanation).
+    
+# Hashmap and Heaps
+    1. Get Common Elements 1.
+    2. Get Common Elements 2.
+    3. Longest Consecutive Sequence Of Elements.
         
 
