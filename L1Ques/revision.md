@@ -127,4 +127,6 @@
     4. Sort K Sorted Array.
     5. Median Priority Queue.
     6. Merge K Sorted Lists.
+    7. Write Priority Queue.
+    8. Write Hashmap.
 
