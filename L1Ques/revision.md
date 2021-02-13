@@ -124,5 +124,7 @@
     1. Get Common Elements 1.
     2. Get Common Elements 2.
     3. Longest Consecutive Sequence Of Elements.
-        
+    4. Sort K Sorted Array.
+    5. Median Priority Queue.
+    6. Merge K Sorted Lists.
 
