@@ -127,6 +127,9 @@
     4. Sort K Sorted Array.
     5. Median Priority Queue.
     6. Merge K Sorted Lists.
-    7. Write Priority Queue.
+    7. Write Priority Queue Using Heap (Efficient Heap Constructor). 
     8. Write Hashmap.
 
+# Graphs
+    1. Has Path.
+    2. Print All Paths.
