@@ -132,4 +132,6 @@
 
 # Graphs
     1. Has Path.
-    2. Print All Paths.
+    2. Print All Paths(DFS).
+    3. Multisolver Smallest Longest Ceil Floor Kth_Largest.
+    4. Get Connected Components Of A Graph.
