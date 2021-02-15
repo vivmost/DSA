@@ -137,3 +137,7 @@
     4. Get Connected Components Of A Graph.
     5. Count Islands.
     6. Hamiltonian Paths And Cycles.
+    7. Knights Tour.
+    8. Breadth First Traversal.
+    9. Is Graph Cyclic.
+    10. Is Graph Bipartite.
