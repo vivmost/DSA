@@ -141,3 +141,6 @@
     8. Breadth First Traversal.
     9. Is Graph Cyclic.
     10. Is Graph Bipartite.
+    11. Shortest Path In Weights (Dijkstras Algorithm).
+    12. Minimum Wire To Connect All PCs (Prims Algorithm).
+    
