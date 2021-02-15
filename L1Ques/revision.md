@@ -127,7 +127,7 @@
     4. Sort K Sorted Array.
     5. Median Priority Queue.
     6. Merge K Sorted Lists.
-    7. Write Priority Queue Using Heap (Efficient Heap Constructor). 
+    7. Write Priority Queue Using Heap (and also Efficient Heap Constructor). 
     8. Write Hashmap.
 
 # Graphs
@@ -135,3 +135,5 @@
     2. Print All Paths(DFS).
     3. Multisolver Smallest Longest Ceil Floor Kth_Largest.
     4. Get Connected Components Of A Graph.
+    5. Count Islands.
+    6. Hamiltonian Paths And Cycles.
