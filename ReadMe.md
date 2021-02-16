@@ -1,14 +1,15 @@
-# Arrays and Matrices
+# Level-1 Shortlisted Problems: 
+## Arrays and Matrices
     1. Rotate an Array.
     2. Exit point of matrix.
     3. Rotate by 90.
     4. Saddle Price.
     5. Ring Rotate.
 
-# Strings
+## Strings
     1. String With Difference Of Every Two Consecutive Characters.
 
-# Recursion and Backtracking
+## Recursion and Backtracking
     1. Tower Of Hanoi.
     2. All indices of an array.
     3. Get kpc.
@@ -18,7 +19,7 @@
     7. N_Queens.
     8. Knights Tour.
 
-# DP and Greedy
+## DP and Greedy
     1. Climb Stairs.
     2. Min Cost In Maze Traversal.
     3. Goldmine.
@@ -38,7 +39,7 @@
     17. Buy And Sell Stocks Two Transactions Allowed.
     18. Buy And Sell Stocks K Transactions Allowed.
         
-# Sorting 
+## Sorting 
     1. Merge Sort.
     2. Quick Sort.
     3. Quick Select.
@@ -66,7 +67,7 @@
     14. Queue Implementations(Static and Dynamic).
     15. Two Stacks In An Array.
     
-# Linked Lists
+## Linked Lists
     1. Linked List Implementation.
     2. Reverse A Linked list(Data and Pointer Iterative).
     3. Kth Node From The End --> (Slow and Fast Pointers).
@@ -78,8 +79,8 @@
     9. Fold A Linked List.
     10. Add 2 Linked Lists.
     
-# Trees
-    ## Generic Tree
+## Trees
+    - Generic Tree
         1. Size Of A Generic Tree.
         2. Maximum In A Genric Tree.
         3. Height Of A Tree.
@@ -97,7 +98,7 @@
         15. Node With Maximum Subtree Sum.
         16. Iterative Preorder Postorder Generic Tree.
 
-    ## Binary Tree
+    - Binary Tree
         1. Size Sum Max_Height.
         2. Node To Root Path.
         3. Print k Levels Down.
@@ -112,7 +113,7 @@
         12. Is A BST.
         13. Is Binary Tree balanced.
 
-    ## BST
+    - BST
         1. Size Sum Max Min Find In BST.
         2. Remove Node In BST.
         3. Replace With Sum Of Larger.
@@ -120,7 +121,7 @@
         5. Print Range.
         6. Target Sum Pairs (Both Problem and Optimal Explanation).
     
-# Hashmap and Heaps
+## Hashmap and Heaps
     1. Get Common Elements 1.
     2. Get Common Elements 2.
     3. Longest Consecutive Sequence Of Elements.
@@ -130,7 +131,7 @@
     7. Write Priority Queue Using Heap (and also Efficient Heap Constructor). 
     8. Write Hashmap.
 
-# Graphs
+## Graphs
     1. Has Path.
     2. Print All Paths(DFS).
     3. Multisolver Smallest Longest Ceil Floor Kth_Largest.
