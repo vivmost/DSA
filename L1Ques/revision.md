@@ -143,4 +143,5 @@
     10. Is Graph Bipartite.
     11. Shortest Path In Weights (Dijkstras Algorithm).
     12. Minimum Wire To Connect All PCs (Prims Algorithm).
-    
+    13. Order Of Compilation (Topological Sort).
+    14. Iterative Depth First Traversal.
