@@ -5,7 +5,7 @@ class Solution {
         }
         
         int[] lessFromLeft = new int[height.length]; 
-        int[] lessFromRight = new int[height.length];zzzzz
+        int[] lessFromRight = new int[height.length];
         lessFromRight[height.length - 1] = height.length;
         lessFromLeft[0] = -1;
 
